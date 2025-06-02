@@ -18,6 +18,9 @@ Regret/Result data contains all the result data from running Simulation-Regret.R
 
 #### SFpark
 Total.RData contains SFpark data for real data analysis in Section 6. The original data can be downloaded [here](https://www.sfmta.com/getting-around/drive-park/demand-responsive-pricing/sfpark-evaluation).
+
 Average occupancy rates plot.R produces the average occupancy rates plots of parking space in different time of day during 5 periods for weekday of block 02ND ST 200 and weekend of block BATTERY ST 400 in Figure 7. 
+
 SFpark-experiment 1.R produces the result in Tables 1 and 2. 
+
 SFpark-experiment 2.R produces the result in Figure 8.  
