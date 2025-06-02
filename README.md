@@ -24,3 +24,6 @@ Average occupancy rates plot.R produces the average occupancy rates plots of par
 SFpark-experiment 1.R produces the result in Tables 1 and 2. 
 
 SFpark-experiment 2.R produces the result in Figure 8.  
+
+
+#### Supermarket discount
