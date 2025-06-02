@@ -17,7 +17,7 @@ reward <- function(x) {
 }
 
 
-#scree plot
+#scree plot Figure 6
 Nnew <- length(table(Downtown2$Nnumnew))
 Ti <- 22
 
