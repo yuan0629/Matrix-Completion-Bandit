@@ -4,7 +4,7 @@ library(latex2exp)
 
 setwd("./Result data/")
 
-## Here is the data to produce Figure 2. Produce Figures 4-5, 9-11 by changing to other result RData.  ##
+## Here is the data to produce Figure 2. Produce Figures 4-5, 9-11 by changing to other RData in folder Result data.  ##
 
 load("density31.RData") 
 load("density32.RData")
