@@ -31,4 +31,4 @@ SFpark-experiment 2.R evaluates the overall performance of matrix completion ban
 #### Supermarket discount
 datadiscount.RData contains the supermarket discount data for real data analysis in Appendix A.2. The original data can be downloaded [here](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final).
 
-Real data_discount.R produces the result in Figure . 
+Real data_discount.R produces the result in Figure 12. 
