@@ -15,7 +15,7 @@ Simulation-Variance.R produces the box plot in Figure 1.
 ### Simulation-Plot
 Inference/Result data contains all the result data from running Simulation-Inference.R under different settings to produce Figures 2 and 4-5 in Section 5, and Figures 9-11 in Appendix A.1. Inference/Simulation-Inference-Plot.R is the code to produce the figures. 
 
-Regret/Result data contains all the result data from running Simulation-Regret.R under under $\gamma=\frac{1}{3}$ and $\gamma=\frac{1}{4}$ to produce Figure 3 in Section 5. Regret/Simulation-Regret-Plot.R is the code to produce the figures. 
+Regret/Result data contains all the result data from running Simulation-Regret.R under $\gamma=\frac{1}{3}$ and $\gamma=\frac{1}{4}$ to produce Figure 3 in Section 5. Regret/Simulation-Regret-Plot.R is the code to produce the figures. 
 
 ### Real Data
 
