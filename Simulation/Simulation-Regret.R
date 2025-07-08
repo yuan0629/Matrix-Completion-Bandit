@@ -7,7 +7,8 @@ library(latex2exp)
 ### Regret ###
 Iteration <- 100
 Timeall <- seq(from = 40000, to = 80000, by = 5000)
-a <- 1/3 # exploration probability for phase two \varepsilon_t=c_2t^{-a}; change to 1/3 to obtain regret4
+a <- 1/3 # exploration probability for phase two \varepsilon_t=c_2t^{-a}; change between "a <- 1/3" and "a <- 1/4" to 
+          #modify \gamma to produce the results in Figure 3
 N <- 300 # number of rows
 Ti <- 300 # number of columns
 r <- 2 # rank
