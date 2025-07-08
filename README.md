@@ -24,7 +24,7 @@ Total.RData contains the SFpark data for real data analysis in Section 6. The or
 
 Average occupancy rates plot.R produces the average occupancy rates plots of parking space in different time of day during 5 periods for weekday of block 02ND ST 200 and weekend of block BATTERY ST 400 in Figure 7. 
 
-SFpark-experiment 1.R conducts the online policy learning and inference to two representative blocks, and produces the scree plots in Figure 5 and the result in Tables 1 and 2. 
+SFpark-experiment 1.R conducts the online policy learning and inference to two representative blocks, and produces the scree plots in Figure 6 and the result in Tables 1 and 2. 
 
 SFpark-experiment 2.R evaluates the overall performance of matrix completion bandit by comparing with SFpark policy and neighborhood method, and produces the result in Figure 8.  
 
