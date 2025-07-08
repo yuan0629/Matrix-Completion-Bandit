@@ -6,14 +6,17 @@ library(latex2exp)
 ### Inference ###
 
 Iteration <- 1000
-a <- 1/3 # exploration probability for phase two \varepsilon_t=c_2t^{-a}
+a <- 1/3 # exploration probability for phase two \varepsilon_t=c_2t^{-a}; change between "a <- 1/3" and "a <- 1/4" to 
+         #modify \gamma to produce the results in Figure 2
 N <- 300 # number of rows
 Ti <- 300 # number of columns
-rreal <- 2 # real rank 
-Time <- 60000 # Time horizon
-T0 <- 20000 # Length of phase one T0 
+rreal <- 2 # real rank; change into rreal <- 3, rreal < - 5 and rreal <- 8 to modify the true rank to produce the results in Figure 5, 
+              # and change between rreal <- 5 and rreal <- 10 to produce the varying rank result in Figure 9 
+Time <- 60000 # Time horizon; change into r <- 30000 to modify the time horizon T to produce the results in Figures 5, 9-11
+T0 <- 20000 # Length of phase one T0; change between T0 <- 8000 and T0 <- 5000 to produce the results in Figure 4 
 c2 <- 10 # exploration probability for phase two\varepsilon_t=c_2t^{-a}
-r <- 2 # rank used in practice
+r <- 2 # rank used in practice; keep it equals rreal in  Figure 3-4, 9-11; and change between r <-  5, r <- 7 and r <- 10 
+          # to produce the results in Figure 5
 
 
 
@@ -85,7 +88,8 @@ for (iter in 1:Iteration) {
     j <- sample(c(1:(N*Ti)), 1)
     
     if (t <= T0) {
-      epsilon <- 0.6  # exploration probability for phase one
+      epsilon <- 0.6  # exploration probability for phase one; change into epsilon <- 0.4 and epsilon <- 0.2 to 
+                      # produce the results in Figure 10
       eta <- 0.025 * N*Ti*log(N)/lmax/Time^(1-a)  # stepsize
     } else {
       epsilon <- c2 * t^(-a)
