@@ -6,7 +6,7 @@ Code to reproduce simulation results, figures, and real data analysis results fo
 ## Organization
 
 ### Simulation
-Simulation-Inference.R produces the empirical distributions under different settings in Figures 2 and 4-5 in Section 5, and Figures 9-11 in Appendix A.1.
+Simulation-Inference.R produces the empirical distributions under different settings in Figures 2 and 4-5 in Section 5, and Figures 9-11 in Appendix A.1. 
 
 Simulation-Regret.R produces the empirical cumulative regret under $\gamma=\frac{1}{3}$ and $\gamma=\frac{1}{4}$ in Figure 3 in Section 5.
 
